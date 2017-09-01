@@ -1,0 +1,96 @@
+body {
+  font-family: "Rounded Mplus 1c";
+  padding-top: 50px;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*------------------- ヘッダー -------------------*/
+/* ヘッダータイトル */
+.navbar-default {
+  border: none;
+}
+
+.container-fluid>.header-margin {
+  margin-left: 33.33333%;
+}
+
+.navbar-default .header-title {
+  color: #122b4e;
+}
+
+.navbar-default .header-title:hover, .navbar-default .header-title:focus {
+  color: #122b4e;
+}
+
+/* ヘッダーメニュー */
+.menu-button {
+  background-color: #122b4e;
+  color: white;
+  margin: 5px 15px 5px 0px;;
+}
+
+.navbar-default .menu-button:hover, .navbar-default .menu-button:focus {
+  background-color: #122b4e;
+}
+
+.navbar-default .navbar-nav>li>.header-menu {
+  color: white;
+  background-color: #122b4e;
+  padding: 15px 41px;
+}
+
+.navbar-default .navbar-nav>li>.header-menu:hover, .navbar-default .navbar-nav>li>.header-menu:focus {
+  color: white;
+  background-color: #122b4e;
+}
+
+.navbar-default .navbar-nav>li>.menu-item {
+  background-color: #122b4e;
+  border: none;
+  border-top: 1px solid white;
+}
+
+.navbar-nav>li>.menu-item>.tourist-spot>a {
+  color: white;
+}
+
+.navbar-nav>li>.menu-item>.tourist-spot>a:hover, .navbar-nav>li>.menu-item>.tourist-spot>a:focus {
+  color: #122b4e;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.tourist-spot>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.tourist-spot>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.tourist-spot>a:focus {
+  color: #122b4e;
+  background-color: white;
+}
+
+/*------------------- メイン -------------------*/
+.main {
+  height: 150vh;
+}
+
+/*------------------- フッター -------------------*/
+.footer {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-link {
+  text-decoration: none;
+  color: white;
+}
+
+.top-link:hover, .top-link:focus {
+  text-decoration: none;
+  color: white;
+}

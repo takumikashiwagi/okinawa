@@ -7,28 +7,48 @@
     <title>町ナビ</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
 
   <body>
-    <header>
-      <div class="navbar navbar-default center-block">
+    <div class="header">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-          </button>
-          <a class="navbar-brand" href="#">Let's GO OKINAWA</a>
-        </div>
+          <div class="navbar-header header-margin">
+            <button type="button" class="navbar-toggle collapsed menu-button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+            </button>
+            <a class="navbar-brand header-title" href="#">Let's GO OKINAWA</a>
+          </div>
 
-      </div>
-    </header>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle header-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  メニュー　<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                </a>
+                <ul class="dropdown-menu menu-item">
+                  <li class="tourist-spot"><a href="#">首里城</a></li>
+                  <li class="tourist-spot"><a href="#">与那覇前浜</a></li>
+                  <li class="tourist-spot"><a href="#">美ら海水族館</a></li>
+                  <li class="tourist-spot"><a href="#">万座毛</a></li>
+                  <li class="tourist-spot"><a href="#">ネオパークオキナワ</a></li>
+                  <li class="tourist-spot"><a href="#">玉泉洞</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div><!-- header -->
 
     <div class="main">
     </div>
 
-    <footer>
-    </footer>
+    <div class="footer">
+      <a class="top-link" href="#">Let's GO OKINAWA</a>
+    </div>
 
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="JavaScript.js"></script>
