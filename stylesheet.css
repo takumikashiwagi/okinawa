@@ -14,7 +14,7 @@ body {
 }
 
 .container-fluid>.header-margin {
-  margin-left: 33.33333%;
+  margin-left: 30%;
 }
 
 .navbar-default .header-title {
@@ -72,8 +72,69 @@ body {
 }
 
 /*------------------- メイン -------------------*/
-.main {
-  height: 150vh;
+
+/* 背景半分赤色 */
+.half-red {
+  position: relative;
+  height: 100vh;
+}
+
+.half-red::before {
+  width: 50%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: #e60012;
+}
+
+/* タイトル文字 */
+.main-title {
+  position: absolute;
+  color: white;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+.main-title h3 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.main-title h1 {
+  margin: 0;
+  font-size: 110px;
+}
+
+.comment {
+  width: 270px;
+  margin-top: 10%;
+  margin-left: auto;
+}
+
+.comment p {
+  margin: 10px 0 0 0;
+}
+
+.scroll-button {
+  width: 75px;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-button:hover, .scroll-button:focus {
+  cursor: pointer;
+}
+
+.scroll-button p {
+  margin: 0;
+}
+
+.scroll-button span {
+  font-size: 50px;
+  margin-left: 8px;
 }
 
 /*------------------- フッター -------------------*/
