@@ -72,6 +72,9 @@ body {
 }
 
 /*------------------- メイン -------------------*/
+.main {
+  padding: 0;
+}
 
 /* 背景半分赤色 */
 .half-red {
@@ -93,7 +96,7 @@ body {
 .main-title {
   position: absolute;
   color: white;
-  margin-left: 30%;
+  margin-left: 33%;
   margin-top: 15%;
 }
 
@@ -108,7 +111,7 @@ body {
 }
 
 .comment {
-  width: 270px;
+  width: 275px;
   margin-top: 10%;
   margin-left: auto;
 }
@@ -134,13 +137,83 @@ body {
 
 .scroll-button span {
   font-size: 50px;
-  margin-left: 8px;
+  margin-left: 10px;
+}
+
+/* 観光地の画像 */
+.section-margin {
+  height: 60px;
+}
+
+.images-padding {
+  padding: 0;
+}
+
+.col-md-6 .tourist-image {
+  width: 100%;
+}
+
+.images-margin {
+  margin: 10px;
+}
+
+.images-section img:hover, .images-section img:focus {
+  cursor: pointer;
+}
+
+/* 画像のキャプション */
+figure {
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption {
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 35px;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 6px;
+}
+
+figcaption>h3 {
+  margin: 1%;
+  color: white;
+}
+
+figure:hover figcaption {
+  bottom: 0;
+}
+
+/* 観光地の説明 */
+.description-section {
+  padding: 0;
+}
+
+.description-bar {
+  height: 50px;
+  background-color: #122b4e;
+  color: white;
+}
+
+.description-bar .description-title {
+  margin: 0;
+  padding: 10px 30px;
+}
+
+.images-description {
+  background-color: #91000b;
 }
 
 /*------------------- フッター -------------------*/
 .footer {
   height: 50px;
   background-color: black;
+
   display: flex;
   align-items: center;
   justify-content: center;
